@@ -3,10 +3,10 @@ $(document).ready(function () {
     // To get current time/date
     let date = new Date();
 
-    // Make variables to get hours, min and second
+    // Make variables to get hours, minutes and seconds
     let hours = date.getHours();
-    let min = date.getMinutes();
-    let sec = date.getSeconds();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
 
     // AM, PM setting
     let session = "AM";
@@ -25,13 +25,13 @@ $(document).ready(function () {
     }
 
     hours = hours < 10 ? "0" + hours : hours;
-    min = min < 10 ? "0" + min : min;
-    sec = sec < 10 ? "0" + sec : sec;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
 
     // Set the variable to span
     $('#hours').text(hours);
-    $('#min').text(min);
-    $('#second').text(sec);
+    $('#minutes').text(minutes);
+    $('#seconds').text(seconds);
     $('#period').text(session);
 
     // To change time in every seconds
