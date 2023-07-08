@@ -23,7 +23,3 @@ This is a simple digital clock project implemented using HTML, CSS, and JavaScri
 - HTML
 - CSS
 - JavaScript
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
