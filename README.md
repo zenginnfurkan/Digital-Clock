@@ -24,17 +24,6 @@ This is a simple digital clock project implemented using HTML, CSS, and JavaScri
 - CSS
 - JavaScript
 
-## Future Improvements
-
-This project can be further enhanced in several ways, including:
-
-- Adding additional time formats (e.g., 24-hour format) to cater to different preferences.
-- Implementing different styles or themes to allow customization.
-- Incorporating animation effects to make the clock more visually appealing.
-- Adding functionality to change the time zone dynamically.
-
-Contributions to this project are welcome. If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
